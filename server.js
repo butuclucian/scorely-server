@@ -977,7 +977,10 @@ app.get("/api/search", async (req, res) => {
   }
 });
 
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Scorely API running on port ${PORT}`);
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`Scorely API running on port ${PORT}`);
-});
+module.exports = app;

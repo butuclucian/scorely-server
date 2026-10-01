@@ -3,7 +3,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![Express](https://img.shields.io/badge/Express-REST%20API-black)
 ![Tests](https://img.shields.io/badge/API%20Tests-10%20Passing-success)
-![CI](https://github.com/lucianbutuc16/scorely-server/actions/workflows/tests.yml/badge.svg)
 
 **Scorely API** is the backend service for the Scorely football mobile application.
 
